@@ -1,21 +1,31 @@
-<!DOCTYPE html>
-<html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Cadastro</title>
+</head>
 <body>
+  
+<div class="container">
 
-<h2>Formulário de cadastro</h2>
+  <div class="form_box">
 
-<form action="#">
-  <label for="fname">Nome completo:</label><br>
-  <input type="text" id="fname" name="fname" value="nome"><br>
-  <label for="lname">Endereço:</label><br>
-  <input type="text" id="lname" name="lname" value="endereço"><br>
-  <label for="lname">CEP:</label><br>
-  <input type="number" id="fname" name="fname" value="CEP"><br>
-  <label for="lname">Endereço:</label><br>
-  <input type="text" id="lname" name="lname" value="digite seu endereço aqui"><br><br>
+    <h2 class="title">Cadastro</h2>
 
-  <input type="submit" value="Enviar">
-</form> 
+    <form action="" method="get">
+
+      <input type="text" name="name" placeholder="Nome">
+      <input type="email" name="email" placeholder="E-mail">
+      <input type="number" name="subject" placeholder="Telefone">
+      <textarea name="message" placeholder="Escreva sua dúvida"></textarea>
+      <button type="submit">Enviar</button>
+
+    </form>
+
+  </div>
+
+</div>
 
 </body>
 </html>

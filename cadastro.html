@@ -1,5 +1,6 @@
 <html lang="pt-br">
 <head>
+  
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0XRBJXBME8"></script>
 <script>
@@ -24,10 +25,10 @@
 
     <form action="" method="get">
 
-      <input type="text" name="name" placeholder="Nome">
-      <input type="email" name="email" placeholder="E-mail">
-      <input type="number" name="subject" placeholder="Telefone">
-      <textarea name="message" placeholder="Escreva sua dúvida"></textarea>
+      <input type="text" name="name" required placeholder="Nome">
+      <input type="email" name="email" required placeholder="E-mail">
+      <input id="telefone" type="number" name="subject" required placeholder="Telefone">
+      <textarea name="message" placeholder="Escreva sua mensagem"></textarea>
       <button type="submit">Enviar</button>
 
     </form>
@@ -35,6 +36,6 @@
   </div>
 
 </div>
-
+<script src="script.js"></script>
 </body>
 </html>

@@ -96,6 +96,13 @@ footer {
 }
 
 .site-logo {
-   max-width: 20%;
+   max-width: 40%;
+}
 
+h3 {
+    color: white;
+    background-color: orange;
+    padding: 50px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, 'Times New Roman', Times, serif
 }

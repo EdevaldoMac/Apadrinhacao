@@ -90,3 +90,7 @@ textarea {
     height: 350px;
     object-fit: cover;
 }
+
+footer {
+    background-color: black;
+}

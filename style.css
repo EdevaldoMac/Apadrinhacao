@@ -86,4 +86,7 @@ textarea {
     background-color: green;
 }
 
-
+.imagem-carousel {
+    height: 350px;
+    object-fit: cover;
+}
